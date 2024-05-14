@@ -36,10 +36,10 @@ from tensorflow.python.ops import gen_audio_ops as audio_ops
 MAX_NUM_WAVS_PER_CLASS = 2**27 - 1  # ~134M
 RANDOM_SEED = 59185
 BACKGROUND_NOISE_DIR_NAME = '_background_noise_'
-SILENCE_LABEL = '_silence_'
+SILENCE_LABEL = 'silence'
 SILENCE_INDEX = 0
 UNKNOWN_WORD_INDEX = 1
-UNKNOWN_WORD_LABEL = '_unknown_'
+UNKNOWN_WORD_LABEL = 'other'
 
 
 def load_wav_file(wav_filename, desired_samples):
