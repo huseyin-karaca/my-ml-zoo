@@ -137,7 +137,7 @@ def prepare_words_list(wanted_words):
     Returns:
         List of words with silence and unknown tokens added.
     """
-    return [SILENCE_LABEL, UNKNOWN_WORD_LABEL] + wanted_words
+    return wanted_words
 
 
 class AudioProcessor:
