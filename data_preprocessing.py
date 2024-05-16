@@ -39,7 +39,7 @@ BACKGROUND_NOISE_DIR_NAME = '_background_noise_'
 SILENCE_LABEL = 'silence'
 SILENCE_INDEX = 0
 UNKNOWN_WORD_INDEX = 1
-UNKNOWN_WORD_LABEL = 'other'
+UNKNOWN_WORD_LABEL = 'background'
 
 
 def load_wav_file(wav_filename, desired_samples):
